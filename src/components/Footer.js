@@ -6,6 +6,7 @@ import {
   faFacebook,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import {QRCode} from "react-qr-code"
 
 const Footer = () => {
   return (
@@ -37,8 +38,17 @@ const Footer = () => {
 
 
       <div className="qr-div">
+        
+      <QRCode
+          value="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          className="qr-code"
+          bgColor="transparent"
+          fgColor="white"
+        />
 
       </div>
+
+
     </div>
   );
 };
