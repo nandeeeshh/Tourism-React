@@ -29,7 +29,7 @@ const Footer = () => {
 
       <div className="footer-mid-text">
 
-       <p className="footer-text-l">Created by @username</p>
+       <p className="footer-text-l">Created by Nandeesh P Math</p>
        <p className="footer-text-l">Made with ❤️ by the Tech Tribe</p>
        <p>Note: This project is made for educational purposes only.</p>
         
